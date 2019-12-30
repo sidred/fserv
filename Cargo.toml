@@ -1,6 +1,6 @@
 [package]
 name = "fserv"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["sid"]
 edition = "2018"
 description = "Simple file server with SPA and proxy support. Works as a dev server for fronend apps for Seed, React, Vue etc"

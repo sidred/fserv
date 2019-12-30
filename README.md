@@ -1,11 +1,20 @@
-
 # fserv
 
 fserv is file server with spa and proxy support and built with actix.
 
-### LICENSE
+[![Crates.io](https://img.shields.io/crates/v/fserv?style=flat-square)](https://crates.io/crates/fserv)
+[![License](https://img.shields.io/crates/l/fserv?style=flat-square)](https://crates.io/crates/fserv)
 
-MIT / APACHE
+__License:__  MIT / APACHE
+
+
+### Installation
+
+```
+cargo install fserv
+```
+
+fserv should now be in your local cargo bin directory
 
 ### Usage
 ```
