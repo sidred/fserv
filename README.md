@@ -1,5 +1,5 @@
 
-# FSERV
+# fserv
 
 fserv is file server with spa and proxy support and built with actix.
 
@@ -15,25 +15,23 @@ fserv -p <port> -i <index_file> -d <directory> -f <path>=<target> -f <path>=<tar
 For help
 ```
 fserv --help
-
 ```
 
 # Example
 
 With the following folder structure
 ```
-.
+base_dir
 ├── html_data/
 │   └── index.html
 └── build/
     ├── main.js
     └── style.css
-
 ```
 
 Use the command
 ```
-fserv -p 9000 -i html_data/index.html  -d build -f api=http://localhost:9010 -f ws=http://localhost:9020
+base_dir $ fserv -p 9000 -i html_data/index.html  -d build -f api=http://localhost:9010 -f ws=http://localhost:9020
 ```
 
 This will start the server on port 9000 and server the files in build directory. Requests to /api and /ws will be proxied 

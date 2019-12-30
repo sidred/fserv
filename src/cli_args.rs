@@ -34,7 +34,6 @@ where
 /// - localhost:9000/api/list       will proxy the request to http://localhost:9010/api/list {n}
 /// - localhost:9000/ws/updates     will proxy the request to http://localhost:9020/ws/updates {n}
 #[derive(StructOpt, Clone, Debug)]
-#[structopt(version = "1.0")]
 pub(crate) struct CliArgs {
     /// Sets the port
     #[structopt(short = "p", long = "port", default_value = "8000")]
