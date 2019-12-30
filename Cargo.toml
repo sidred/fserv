@@ -7,7 +7,7 @@ description = "Simple file server with SPA and proxy support. Works as a dev ser
 license = "MIT/Apache-2.0"
 repository = "https://github.com/sidred/fserv"
 readme = "README.md"
-keywords = ["server", "spa", "simple", "http-server", "cli", "file-server"]
+keywords = ["server", "spa", "http-server", "simple-server", "file-server"]
 categories = ["web-programming::http-server", "network-programming"]
 
 [dependencies]

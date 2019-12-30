@@ -3,11 +3,11 @@
 
 fserv is file server with spa and proxy support and built with actix.
 
-# LICENSE
+### LICENSE
 
 MIT / APACHE
 
-# Usage
+### Usage
 ```
 fserv -p <port> -i <index_file> -d <directory> -f <path>=<target> -f <path>=<target>
 ```
@@ -17,7 +17,7 @@ For help
 fserv --help
 ```
 
-# Example
+### Example
 
 With the following folder structure
 ```
@@ -46,7 +46,7 @@ This will start the server on port 9000 and server the files in build directory.
 | localhost:9000/api/list      | proxy the request to http://localhost:9010/api/list       |
 | localhost:9000/ws/updates    | proxy the request to http://localhost:9020/ws/updates     |
 
-# Config
+### Config
 
 ```
 USAGE:
