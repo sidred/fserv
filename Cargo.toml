@@ -1,0 +1,20 @@
+[package]
+name = "fserv"
+version = "0.1.0"
+authors = ["sid"]
+edition = "2018"
+description = "Simple file server with SPA and proxy support. Works as a dev server for fronend apps for Seed, React, Vue etc"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/sidred/fserv"
+readme = "README.md"
+keywords = ["server", "spa", "simple", "http-server", "cli", "file-server"]
+categories = ["web-programming::http-server", "network-programming"]
+
+[dependencies]
+actix-files = "0.2"
+actix-rt = "1"
+actix-web = "2"
+env_logger = "0.7"
+log = "0.4"
+structopt = "0.3"
+url = "2"
